@@ -343,9 +343,9 @@ function renderCart() {
           `,
         )
         .join("")
-    : '<p class="cart-empty">Seu carrinho ainda esta vazio.</p>';
+    : '<p class="cart-empty">Seu carrinho ainda está vazio.</p>';
 
-  heroWhatsApp.href = getWhatsAppUrl("Ola, quero saber quais pods descartaveis estao disponiveis na Arabian Pods.");
+  heroWhatsApp.href = getWhatsAppUrl("Olá, quero saber quais pods descartáveis estao disponíveis na Arabian Pods.");
   saveCart();
 }
 
@@ -383,7 +383,7 @@ function buildOrderMessage(data) {
     `Endereco: ${data.address}`,
     `Pagamento: ${data.payment}`,
     "",
-    "Entrega: Salvador/regiao metropolitana.",
+    "Entrega: Salvador/região metropolitana.",
   ].join("\n");
 }
 
