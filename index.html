@@ -3,20 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Arabian Pods</title>
+
     <meta
       name="description"
-      content="Arabian Pods - pods descartaveis premium com entrega em Salvador e regiao metropolitana."
+      content="Arabian Pods - pods descartáveis premium com entrega em Salvador e região metropolitana. Escolha seu sabor e finalize pelo WhatsApp."
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="/favicon.png" type="image/x-icon">
+
+    <link rel="icon" href="/favicon.png" type="image/png" />
   </head>
+
   <body>
     <div class="smoke-reveal" id="smokeReveal" aria-hidden="true">
       <span></span>
@@ -25,35 +32,67 @@
       <span></span>
     </div>
 
-    <div class="age-gate" id="ageGate" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
+    <div
+      class="age-gate"
+      id="ageGate"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="ageTitle"
+    >
       <div class="age-card">
         <img src="logo-arabian-pods.png" alt="Arabian Pods" />
+
         <span>Acesso restrito</span>
-        <h1 id="ageTitle">Voce tem 18 anos ou mais?</h1>
-        <p>Este site e exclusivo para maiores de idade e vende apenas pods descartaveis.</p>
+
+        <h1 id="ageTitle">Você tem 18 anos ou mais?</h1>
+
+        <p>
+          Este site é exclusivo para maiores de idade e vende apenas pods
+          descartáveis.
+        </p>
+
         <div class="age-actions">
-          <button class="btn btn-primary" id="confirmAge">Confirmar idade</button>
-          <a class="btn btn-outline" href="https://www.google.com">Sair</a>
+          <button class="btn btn-primary" id="confirmAge">
+            Confirmar idade
+          </button>
+
+          <a class="btn btn-outline" href="https://www.google.com">
+            Sair
+          </a>
         </div>
       </div>
     </div>
 
-    <nav class="main-nav" aria-label="Navegacao principal">
-      <a class="logo-link" href="#inicio" aria-label="Arabian Pods inicio">
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a class="logo-link" href="#inicio" aria-label="Arabian Pods início">
         <img src="logo-arabian-pods.png" alt="Arabian Pods" />
       </a>
+
       <div class="nav-links">
-        <a href="#inicio" class="active">Inicio</a>
-        <a href="#produtos">Pods descartaveis</a>
+        <a href="#inicio" class="active">Início</a>
+        <a href="#produtos">Pods descartáveis</a>
         <a href="#sabores">Sabores</a>
         <a href="#entrega">Entrega</a>
         <a href="#contato">Contato</a>
       </div>
+
       <div class="nav-actions">
-        <button type="button" aria-label="Buscar">Search</button>
-        <button type="button" aria-label="Conta">User</button>
-        <button type="button" class="cart-icon" id="openCart" aria-label="Abrir carrinho">
-          <img src="assets/carrinho-carrinho.png" alt="" aria-hidden="true" />
+        <button type="button" aria-label="Buscar">🔍</button>
+
+        <button type="button" aria-label="Conta">👤</button>
+
+        <button
+          type="button"
+          class="cart-icon"
+          id="openCart"
+          aria-label="Abrir carrinho"
+        >
+          <img
+            src="assets/carrinho-carrinho.png"
+            alt=""
+            aria-hidden="true"
+          />
+
           <span id="cartCount">0</span>
         </button>
       </div>
@@ -63,44 +102,97 @@
       <div class="promo-track">
         <article class="promo-slide">
           <i>Entrega local</i>
-          <h2>Salvador e metropole</h2>
+
+          <h2>Salvador e metrópole</h2>
+
           <p>Consulte taxa e disponibilidade no checkout.</p>
         </article>
+
         <article class="promo-slide">
-          <i>Catalogo direto</i>
-          <h2>Pods descartaveis</h2>
+          <i>Catálogo direto</i>
+
+          <h2>Pods descartáveis</h2>
+
           <p>Escolha por marca, modelo, sabor e estoque.</p>
         </article>
+
         <article class="promo-slide">
           <i>Oferta Pix</i>
-          <h2>5% off no Pix</h2>
+
+          <h2>5% OFF no Pix</h2>
+
           <p>Finalize o pedido e confirme o desconto.</p>
         </article>
       </div>
-      <div class="promo-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+
+      <div class="promo-dots" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </section>
 
     <main id="inicio">
       <section class="hero">
         <div class="hero-copy">
           <p class="kicker">Sabor, estilo e praticidade</p>
-          <h1>Pods descartaveis <strong>com entrega local</strong></h1>
+
+          <h1>
+            Pods descartáveis
+            <strong>com entrega local</strong>
+          </h1>
+
           <p class="hero-text">
-            Escolha seu pod, monte o carrinho e finalize pelo WhatsApp. Atendimento para Salvador
-            e regiao metropolitana.
+            Escolha seu pod, monte o carrinho e finalize pelo WhatsApp.
+            Atendimento para Salvador e região metropolitana.
           </p>
+
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#produtos">Ver pods <span>-></span></a>
-            <a class="btn btn-outline" id="heroWhatsApp" href="#" target="_blank" rel="noreferrer">Fale conosco</a>
+            <a class="btn btn-primary" href="#produtos">
+              Ver pods <span>→</span>
+            </a>
+
+            <a
+              class="btn btn-outline"
+              id="heroWhatsApp"
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Fale conosco
+            </a>
           </div>
+
           <div class="trust-row">
-            <div><span>01</span><b>Pods descartaveis</b><small>Catalogo direto ao ponto</small></div>
-            <div><span>02</span><b>Entrega local</b><small>Salvador e metropole</small></div>
-            <div><span>03</span><b>Pedido rapido</b><small>Finalizacao no WhatsApp</small></div>
+            <div>
+              <span>01</span>
+              <b>Pods descartáveis</b>
+              <small>Catálogo direto ao ponto</small>
+            </div>
+
+            <div>
+              <span>02</span>
+              <b>Entrega local</b>
+              <small>Salvador e metrópole</small>
+            </div>
+
+            <div>
+              <span>03</span>
+              <b>Pedido rápido</b>
+              <small>Finalização no WhatsApp</small>
+            </div>
           </div>
         </div>
+
         <div class="hero-image">
-          <video class="hero-video" autoplay muted loop playsinline poster="personagem-3d.png">
+          <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="personagem-3d.png"
+          >
             <source src="video.mp4" type="video/mp4" />
           </video>
         </div>
@@ -109,22 +201,33 @@
       <section class="section products-section" id="produtos">
         <div class="section-head">
           <div>
-            <span>Catalogo</span>
-            <h2>Pods em <strong>destaque</strong></h2>
+            <span>Catálogo</span>
+
+            <h2>
+              Pods em
+              <strong>destaque</strong>
+            </h2>
           </div>
-          <a class="mini-link" href="#pedido">Finalizar pedido <span>-></span></a>
+
+          <a class="mini-link" href="#pedido">
+            Finalizar pedido <span>→</span>
+          </a>
         </div>
+
         <div class="decor-line"></div>
+
         <div class="product-grid" id="productGrid"></div>
       </section>
 
       <section class="brand-strip" aria-label="Marcas">
-        <strong>Marcas e modelos disponiveis</strong>
+        <strong>Marcas e modelos disponíveis</strong>
+
         <div>
           <span>IGNITE</span>
           <p>V155 UltraSlim 15k</p>
           <p>Boost Series ICE 40k</p>
         </div>
+
         <div>
           <span>ELFBAR</span>
           <p>ICE KING 15k</p>
@@ -135,93 +238,192 @@
       <section class="section category-section" id="sabores">
         <article class="feature-card">
           <span>Curadoria Arabian</span>
+
           <h2>O pod certo para o seu gosto</h2>
-          <p>Foco em descartaveis com sabores populares, boa autonomia e compra sem complicacao.</p>
-          <button class="btn btn-primary catalog-jump" type="button" data-target="catalog-start">Comprar agora <span>-></span></button>
+
+          <p>
+            Foco em descartáveis com sabores populares, boa autonomia e compra
+            sem complicação.
+          </p>
+
+          <button
+            class="btn btn-primary catalog-jump"
+            type="button"
+            data-target="catalog-start"
+          >
+            Comprar agora <span>→</span>
+          </button>
         </article>
+
         <div class="category-grid">
           <article class="catalog-jump" data-target="ice">
             <span class="line-icon">Ice</span>
+
             <h3>Refrescantes</h3>
+
             <p>Menta, ice, blueberry ice e perfis gelados.</p>
-            <button type="button">Ver pods -></button>
+
+            <button type="button">Ver pods →</button>
           </article>
+
           <article class="catalog-jump" data-target="fruit">
             <span class="line-icon">Fruit</span>
+
             <h3>Frutados</h3>
+
             <p>Uva, morango, melancia, manga e mixes tropicais.</p>
-            <button type="button">Ver pods -></button>
+
+            <button type="button">Ver pods →</button>
           </article>
+
           <article class="catalog-jump" data-target="sweet">
             <span class="line-icon">Sweet</span>
+
             <h3>Doces</h3>
-            <p>Perfis suaves, sobremesas e combinacoes adocicadas.</p>
-            <button type="button">Ver pods -></button>
+
+            <p>Perfis suaves, sobremesas e combinações adocicadas.</p>
+
+            <button type="button">Ver pods →</button>
           </article>
         </div>
+
         <aside class="support-card" id="entrega">
-          <div><span>SSA</span><b>Entrega em Salvador</b></div>
-          <div><span>RMS</span><b>Regiao metropolitana</b></div>
-          <div><span>WPP</span><b>Confirme bairro e taxa no WhatsApp</b></div>
+          <div>
+            <span>SSA</span>
+            <b>Entrega em Salvador</b>
+          </div>
+
+          <div>
+            <span>RMS</span>
+            <b>Região metropolitana</b>
+          </div>
+
+          <div>
+            <span>WPP</span>
+            <b>Confirme bairro e taxa no WhatsApp</b>
+          </div>
         </aside>
       </section>
 
       <section class="cart-section" id="pedido">
         <div>
-          <p class="kicker">Pedido rapido</p>
+          <p class="kicker">Pedido rápido</p>
+
           <h2>Carrinho pelo WhatsApp</h2>
+
           <p>
-            Adicione seus pods descartaveis e envie o pedido pronto para confirmar estoque,
-            sabor, bairro de entrega e taxa.
+            Adicione seus pods descartáveis e envie o pedido pronto para
+            confirmar estoque, sabor, bairro de entrega e taxa.
           </p>
         </div>
+
         <div class="cart-panel" id="cartPanel">
           <div class="cart-title">
             <h3>Seu pedido</h3>
+
             <button id="clearCart" type="button">Limpar</button>
           </div>
+
           <div class="cart-items" id="cartItems"></div>
+
           <div class="cart-total">
             <span>Total estimado</span>
+
             <strong id="cartTotal">R$ 0,00</strong>
           </div>
-          <button class="btn btn-primary" id="openCheckout" type="button">Finalizar pedido</button>
+
+          <button class="btn btn-primary" id="openCheckout" type="button">
+            Finalizar pedido
+          </button>
         </div>
       </section>
     </main>
 
     <div class="checkout-modal" id="checkoutModal" aria-hidden="true">
-      <div class="checkout-dialog" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
-        <button class="modal-close" id="closeCheckout" type="button" aria-label="Fechar">x</button>
-        <span>Finalizacao</span>
+      <div
+        class="checkout-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="checkoutTitle"
+      >
+        <button
+          class="modal-close"
+          id="closeCheckout"
+          type="button"
+          aria-label="Fechar"
+        >
+          ×
+        </button>
+
+        <span>Finalização</span>
+
         <h2 id="checkoutTitle">Dados do pedido</h2>
-        <p>Preencha as informacoes para montar a mensagem que sera enviada ao WhatsApp da loja.</p>
+
+        <p>
+          Preencha as informações para montar a mensagem que será enviada ao
+          WhatsApp da loja.
+        </p>
+
         <form id="checkoutForm" class="checkout-form">
           <label>
             Nome completo
-            <input id="customerName" name="customerName" type="text" autocomplete="name" required />
+
+            <input
+              id="customerName"
+              name="customerName"
+              type="text"
+              autocomplete="name"
+              required
+            />
           </label>
+
           <label>
-            Endereco completo
-            <textarea id="customerAddress" name="customerAddress" rows="3" required></textarea>
+            Endereço completo
+
+            <textarea
+              id="customerAddress"
+              name="customerAddress"
+              rows="3"
+              required
+            ></textarea>
           </label>
+
           <label>
             Forma de pagamento
+
             <select id="paymentMethod" name="paymentMethod" required>
               <option value="">Selecione</option>
               <option>Pix</option>
-              <option>Cartao de credito</option>
-              <option>Cartao de debito</option>
+              <option>Cartão de crédito</option>
+              <option>Cartão de débito</option>
               <option>Dinheiro</option>
             </select>
           </label>
-          <button class="btn btn-primary" type="submit">Confirmar pedido</button>
+
+          <button class="btn btn-primary" type="submit">
+            Confirmar pedido
+          </button>
         </form>
+
         <div class="checkout-result" id="checkoutResult" hidden>
           <strong>Pedido pronto.</strong>
-          <p>Revise as informacoes e toque no botao para abrir o WhatsApp com a mensagem preenchida.</p>
+
+          <p>
+            Revise as informações e toque no botão para abrir o WhatsApp com a
+            mensagem preenchida.
+          </p>
+
           <textarea id="orderMessage" readonly></textarea>
-          <a class="btn btn-primary" id="whatsAppOrder" href="#" target="_blank" rel="noreferrer">Enviar no WhatsApp</a>
+
+          <a
+            class="btn btn-primary"
+            id="whatsAppOrder"
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Enviar no WhatsApp
+          </a>
         </div>
       </div>
     </div>
@@ -229,26 +431,47 @@
     <footer class="footer" id="contato">
       <div>
         <img src="logo-arabian-pods.png" alt="Arabian Pods" />
-        <p>Pods descartaveis selecionados para Salvador e regiao metropolitana.</p>
+
+        <p>
+          Pods descartáveis selecionados para Salvador e região metropolitana.
+        </p>
+
+        <small>
+          Venda proibida para menores de 18 anos.
+        </small>
       </div>
+
       <div>
         <h3>Loja</h3>
-        <a href="#produtos">Pods descartaveis</a>
+
+        <a href="#produtos">Pods descartáveis</a>
         <a href="#sabores">Sabores</a>
         <a href="#entrega">Entrega</a>
       </div>
+
       <div>
         <h3>Atendimento</h3>
+
         <a href="#pedido">Como comprar</a>
         <a href="#contato">Formas de pagamento</a>
         <a href="#contato">Consultar entrega</a>
       </div>
+
       <div>
         <h3>Newsletter</h3>
-        <p>Receba reposicoes, ofertas e novidades em primeira mao.</p>
+
+        <p>Receba reposições, ofertas e novidades em primeira mão.</p>
+
         <form class="newsletter">
-          <input type="email" placeholder="Seu e-mail" aria-label="Seu e-mail" />
-          <button type="submit" aria-label="Enviar">-></button>
+          <input
+            type="email"
+            placeholder="Seu e-mail"
+            aria-label="Seu e-mail"
+          />
+
+          <button type="submit" aria-label="Enviar">
+            →
+          </button>
         </form>
       </div>
     </footer>
