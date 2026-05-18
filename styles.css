@@ -439,12 +439,10 @@ input {
   filter: blur(30px);
 }
 
-.hero-image img {
-  position: relative;
-  width: min(720px, 112%);
-  max-height: 620px;
+.hero-video video {
+  width: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 22px 70px rgba(154, 34, 244, 0.36));
+}
 }
 
 .section,
